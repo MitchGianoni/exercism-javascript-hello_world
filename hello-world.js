@@ -1,3 +1,5 @@
+'use strict';
+
 //
 // This is a stub file for the 'Hello World' exercise. It's been provided as a
 // convenience to get you started writing code faster.
@@ -6,10 +8,8 @@
 
 var HelloWorld = function () {};
 
-HelloWorld.prototype.hello = function () {
-//
-// YOUR CODE GOES HERE
-//
+HelloWorld.prototype.hello = function (input) {
+  return 'Hello, World!';
 };
 
 module.exports = HelloWorld;

@@ -1,3 +1,5 @@
+'use strict';
+
 var HelloWorld = require('./hello-world');
 
 describe('Hello World', function () {
